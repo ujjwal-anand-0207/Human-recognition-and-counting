@@ -1,5 +1,5 @@
 import cv2
-from utils import detect
+from utils.detect import detect
 
 def detectByCamera(writer):   
     video = cv2.VideoCapture(0)

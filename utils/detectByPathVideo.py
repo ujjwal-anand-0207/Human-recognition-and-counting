@@ -1,6 +1,6 @@
 import cv2
 import imutils
-from utils import detect 
+from utils.detect import detect 
 def detectByPathVideo(path,writer):
     video=cv2.VideoCapture(path)
     check,frame= video.read()

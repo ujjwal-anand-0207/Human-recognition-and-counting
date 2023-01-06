@@ -1,5 +1,5 @@
 import cv2
-from utils import detect
+from utils.detect import detect
 import imutils
 
 def detectByPathImage(path, output_path):
