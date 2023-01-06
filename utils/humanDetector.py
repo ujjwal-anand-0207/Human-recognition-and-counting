@@ -1,7 +1,7 @@
 import cv2
-from utils.detectByPathImage import detectByPathImage 
-from utils.detectByCamera import detectByCamera
-from utils.detectByPathVideo import detectByPathVideo
+from utils.detectbypathimage import detectByPathImage 
+from utils.detectbycamera import detectByCamera
+from utils.detectbypathvideo import detectByPathVideo
 
 
 
